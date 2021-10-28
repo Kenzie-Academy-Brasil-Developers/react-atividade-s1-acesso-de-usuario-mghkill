@@ -8,7 +8,7 @@ const RestrictedPage = ({ isLoggedIn, user, Login, Logout }) => {
         </div>
       ) : (
         <div>
-          <h1>Seja bem vindo {user}!</h1>
+          <h1>Seja bem-vindo, {user}!</h1>
           <button onClick={Logout}>Sair</button>
         </div>
       )}
